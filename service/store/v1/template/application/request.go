@@ -1,14 +1,14 @@
 package application
 
 import (
-	"github.com/roscopecoltran/feedify/context"
+	"github.com/roscopecoltran/feedify/contextor"
 )
 
 /**
  * @apiDefine ApplicationGetListRequest
  *
  */
-func RequestGetList(input *context.Input) {
+func RequestGetList(input *contextor.Input) {
 
 }
 
@@ -17,7 +17,7 @@ func RequestGetList(input *context.Input) {
  *
  * @apiParam {String}  applicationId  The application id
  */
-func RequestGet(input *context.Input) {
+func RequestGet(input *contextor.Input) {
 
 }
 
@@ -33,7 +33,7 @@ func RequestGet(input *context.Input) {
  *       "description": "The DragonBall application. This will contain feeds for all DragonBall characters."
  *     }
  */
-func RequestPost(input *context.Input) {
+func RequestPost(input *contextor.Input) {
 
 }
 
@@ -50,7 +50,7 @@ func RequestPost(input *context.Input) {
  *       "description": "The DragonBall application. This will contain feeds for all DragonBall characters."
  *     }
  */
-func RequestPut(input *context.Input) {
+func RequestPut(input *contextor.Input) {
 
 }
 
@@ -59,6 +59,6 @@ func RequestPut(input *context.Input) {
  *
  * @apiParam {String}  applicationId  The application id
  */
-func RequestDelete(input *context.Input) {
+func RequestDelete(input *contextor.Input) {
 
 }

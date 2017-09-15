@@ -2,6 +2,15 @@ TEST?=./...
 
 default: test
 
+deps:
+	glide install --strip-vendor
+
+darwin:
+	gox -verbose -os="darwin" -arch="amd64" -output="dist/{{.Dir}}" ./cmd/...
+
+linux:
+	gox -verbose -os="linux" -arch="amd64" -output="dist/{{.Dir}}" ./cmd/...
+
 bin:
 	@sh -c "$(CURDIR)/scripts/build.sh"
 

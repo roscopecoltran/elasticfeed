@@ -18,8 +18,9 @@ import:
   subpackages:
   - common/json
 - package: github.com/roscopecoltran/feedify
+  version: sniperkit
   subpackages:
-  - context
+  - contextor
   - graph
   - service
   - stream

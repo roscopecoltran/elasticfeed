@@ -1,7 +1,7 @@
 package admin
 
 import (
-	"github.com/roscopecoltran/feedify/context"
+	"github.com/roscopecoltran/feedify/contextor"
 )
 
 
@@ -9,7 +9,7 @@ import (
  * @apiDefine AdminGetListRequest
  *
  */
-func RequestGetList(input *context.Input) {
+func RequestGetList(input *contextor.Input) {
 
 }
 
@@ -18,7 +18,7 @@ func RequestGetList(input *context.Input) {
  *
  * @apiParam {String} adminId  The admin user id
  */
-func RequestGet(input *context.Input) {
+func RequestGet(input *contextor.Input) {
 
 }
 
@@ -30,7 +30,7 @@ func RequestGet(input *context.Input) {
  * @apiParam {Int}       roleList.id    Role id (see full list at Appendix)
  * @apiParam {String}    roleList.name  Role name
  */
-func RequestPost(input *context.Input) {
+func RequestPost(input *contextor.Input) {
 
 }
 
@@ -43,7 +43,7 @@ func RequestPost(input *context.Input) {
  * @apiParam {Int}       roleList.id    Role id (see full list at Appendix)
  * @apiParam {String}    roleList.name  Role name
  */
-func RequestPut(input *context.Input) {
+func RequestPut(input *contextor.Input) {
 
 }
 
@@ -52,6 +52,6 @@ func RequestPut(input *context.Input) {
  *
  * @apiParam {String}  adminId  The admin user id
  */
-func RequestDelete(input *context.Input) {
+func RequestDelete(input *contextor.Input) {
 
 }

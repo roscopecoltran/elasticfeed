@@ -43,3 +43,11 @@ vendor/**
 cache
 cache/
 cache/**
+
+dist
+dist/
+dist/**
+
+bin
+bin/
+bin/**

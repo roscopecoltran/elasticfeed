@@ -2,7 +2,7 @@ package template
 
 import (
 	"strconv"
-	"github.com/roscopecoltran/feedify/context"
+	"github.com/roscopecoltran/feedify/contextor"
 )
 
 type ResponseDefinition struct {
@@ -28,7 +28,7 @@ func (this *ResponseDefinition) GetLimit() int {
 	return this.limit
 }
 
-func NewResponseDefinition(input *context.Input) *ResponseDefinition {
+func NewResponseDefinition(input *contextor.Input) *ResponseDefinition {
 	orderby := input.Request.URL.Query().Get("orderby")
 	if orderby == "" {
 		orderby = "id"

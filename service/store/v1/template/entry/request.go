@@ -1,7 +1,7 @@
 package entry
 
 import (
-	"github.com/roscopecoltran/feedify/context"
+	"github.com/roscopecoltran/feedify/contextor"
 )
 
 
@@ -11,7 +11,7 @@ import (
  * @apiParam {String}  applicationId  The application id
  * @apiParam {String}  feedId         The application id
  */
-func RequestGetListByFeed(input *context.Input) {
+func RequestGetListByFeed(input *contextor.Input) {
 
 }
 
@@ -28,7 +28,7 @@ func RequestGetListByFeed(input *context.Input) {
  * @apiParam {String}  feedId         The feed id
  * @apiParam {String}  entryId        The entry id
  */
-func RequestGet(input *context.Input) {
+func RequestGet(input *contextor.Input) {
 
 }
 
@@ -39,7 +39,7 @@ func RequestGet(input *context.Input) {
  * @apiParam {String}    data           The data of the entry
  * @apiParam {String[]}  [tagList]      Tags of the entry
  */
-func RequestPost(input *context.Input) {
+func RequestPost(input *contextor.Input) {
 
 }
 
@@ -58,7 +58,7 @@ func RequestPost(input *context.Input) {
  * @apiParam {String}  feedId         The feed id
  * @apiParam {String}  entryId        The entry id
  */
-func RequestPostToFeed(input *context.Input) {
+func RequestPostToFeed(input *contextor.Input) {
 
 }
 
@@ -70,7 +70,7 @@ func RequestPostToFeed(input *context.Input) {
  * @apiParam {String}    data           The data of the entry
  * @apiParam {String[]}  [tagList]      Tags of the entry
  */
-func RequestPut(input *context.Input) {
+func RequestPut(input *contextor.Input) {
 
 }
 
@@ -80,7 +80,7 @@ func RequestPut(input *context.Input) {
  * @apiParam {String}  applicationId  The application id
  * @apiParam {String}  entryId        The entry id
  */
-func RequestDelete(input *context.Input) {
+func RequestDelete(input *contextor.Input) {
 
 }
 
@@ -91,6 +91,6 @@ func RequestDelete(input *context.Input) {
  * @apiParam {String}  feedId         The feed id
  * @apiParam {String}  entryId        The entry id
  */
-func RequestRemove(input *context.Input) {
+func RequestRemove(input *contextor.Input) {
 
 }
