@@ -3,7 +3,7 @@ package event
 import (
 	"github.com/astaxie/beego/toolbox"
 
-	"github.com/feedlabs/elasticfeed/elasticfeed/model"
+	"github.com/roscopecoltran/elasticfeed/elasticfeed/model"
 )
 
 const (

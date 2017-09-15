@@ -9,7 +9,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/feedlabs/elasticfeed/common/uuid"
+	"github.com/roscopecoltran/elasticfeed/common/uuid"
 )
 
 // InitTime is the UTC time when this package was initialized. It is

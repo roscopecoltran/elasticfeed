@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"encoding/json"
 
-	"github.com/feedlabs/feedify/graph"
-	"github.com/feedlabs/elasticfeed/service/stream/controller/room"
+	"github.com/roscopecoltran/feedify/graph"
+	"github.com/roscopecoltran/elasticfeed/service/stream/controller/room"
 )
 
 func GetEntryList(FeedId string, ApplicationId string, OrgId string) (feedEntries []*Entry, err error) {

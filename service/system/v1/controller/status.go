@@ -4,9 +4,9 @@ import (
 	"os"
 	"runtime"
 	"strconv"
-	"github.com/feedlabs/feedify"
-	"github.com/feedlabs/elasticfeed/service/stream/controller/room"
-	"github.com/feedlabs/elasticfeed/service/stream/model"
+	"github.com/roscopecoltran/feedify"
+	"github.com/roscopecoltran/elasticfeed/service/stream/controller/room"
+	"github.com/roscopecoltran/elasticfeed/service/stream/model"
 )
 
 type StatusController struct {

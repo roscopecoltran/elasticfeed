@@ -1,7 +1,7 @@
 package plugin
 
 import (
-	"github.com/feedlabs/elasticfeed/plugin/model"
+	"github.com/roscopecoltran/elasticfeed/plugin/model"
 )
 
 type Plugin struct {

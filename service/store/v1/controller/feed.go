@@ -3,10 +3,10 @@ package controller
 import (
 	"encoding/json"
 
-	"github.com/feedlabs/elasticfeed/resource"
+	"github.com/roscopecoltran/elasticfeed/resource"
 
-	"github.com/feedlabs/elasticfeed/service/store/v1/template"
-	"github.com/feedlabs/elasticfeed/service/store/v1/template/feed"
+	"github.com/roscopecoltran/elasticfeed/service/store/v1/template"
+	"github.com/roscopecoltran/elasticfeed/service/store/v1/template/feed"
 )
 
 type FeedController struct {

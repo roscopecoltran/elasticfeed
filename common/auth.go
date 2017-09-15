@@ -3,8 +3,8 @@ package common
 import (
 	auth "github.com/abbot/go-http-auth"
 	"github.com/astaxie/beego/context"
-	"github.com/feedlabs/elasticfeed/resource"
-	"github.com/feedlabs/elasticfeed/common/config"
+	"github.com/roscopecoltran/elasticfeed/resource"
+	"github.com/roscopecoltran/elasticfeed/common/config"
 )
 
 var (

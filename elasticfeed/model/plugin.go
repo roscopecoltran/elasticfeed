@@ -1,7 +1,7 @@
 package model
 
 import (
-	pmodel "github.com/feedlabs/elasticfeed/plugin/model"
+	pmodel "github.com/roscopecoltran/elasticfeed/plugin/model"
 )
 
 type PluginManager interface {

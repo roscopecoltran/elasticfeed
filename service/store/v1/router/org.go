@@ -1,8 +1,8 @@
 package router
 
 import (
-	"github.com/feedlabs/feedify"
-	"github.com/feedlabs/elasticfeed/service/store/v1/controller"
+	"github.com/roscopecoltran/feedify"
+	"github.com/roscopecoltran/elasticfeed/service/store/v1/controller"
 )
 
 func InitOrgRouters() {

@@ -2,8 +2,8 @@ package plugin
 
 import (
 	"errors"
-	"github.com/feedlabs/feedify/context"
-	"github.com/feedlabs/elasticfeed/service/system/v1/template"
+	"github.com/roscopecoltran/feedify/context"
+	"github.com/roscopecoltran/elasticfeed/service/system/v1/template"
 )
 
 func CheckRequiredParams() {

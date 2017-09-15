@@ -1,9 +1,9 @@
 package plugin
 
 import (
-	"github.com/feedlabs/elasticfeed/resource"
-	"github.com/feedlabs/elasticfeed/common/uuid"
-	"github.com/feedlabs/elasticfeed/service/system/v1/template"
+	"github.com/roscopecoltran/elasticfeed/resource"
+	"github.com/roscopecoltran/elasticfeed/common/uuid"
+	"github.com/roscopecoltran/elasticfeed/service/system/v1/template"
 )
 
 func GetEntry(plugin *resource.Plugin) (entry map[string]interface{}) {

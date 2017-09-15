@@ -1,8 +1,8 @@
 package channel
 
 import (
-	"github.com/feedlabs/elasticfeed/service/stream/model"
-	"github.com/feedlabs/elasticfeed/service/stream/controller/room"
+	"github.com/roscopecoltran/elasticfeed/service/stream/model"
+	"github.com/roscopecoltran/elasticfeed/service/stream/controller/room"
 )
 
 type LongPollingController struct {

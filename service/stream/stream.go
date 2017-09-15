@@ -1,10 +1,10 @@
 package stream
 
 import (
-	"github.com/feedlabs/elasticfeed/service/stream/router"
-	"github.com/feedlabs/elasticfeed/service/stream/controller"
+	"github.com/roscopecoltran/elasticfeed/service/stream/router"
+	"github.com/roscopecoltran/elasticfeed/service/stream/controller"
 
-	"github.com/feedlabs/elasticfeed/service/stream/controller/room"
+	"github.com/roscopecoltran/elasticfeed/service/stream/controller/room"
 )
 
 type StreamService struct {

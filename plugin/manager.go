@@ -6,12 +6,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/feedlabs/elasticfeed/plugin/model"
-	"github.com/feedlabs/elasticfeed/common/config"
+	"github.com/roscopecoltran/elasticfeed/plugin/model"
+	"github.com/roscopecoltran/elasticfeed/common/config"
 
 	"github.com/mitchellh/osext"
 
-	emodel "github.com/feedlabs/elasticfeed/elasticfeed/model"
+	emodel "github.com/roscopecoltran/elasticfeed/elasticfeed/model"
 )
 
 type PluginManager struct {

@@ -1,7 +1,7 @@
 package admin
 
 import (
-	"github.com/feedlabs/feedify/context"
+	"github.com/roscopecoltran/feedify/context"
 )
 
 

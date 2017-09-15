@@ -3,7 +3,7 @@ package plugin
 import (
 	"log"
 	"net/rpc"
-	"github.com/feedlabs/elasticfeed/plugin/model"
+	"github.com/roscopecoltran/elasticfeed/plugin/model"
 )
 
 // An implementation of packer.Cache where the RpcCache is actually executed

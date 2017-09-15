@@ -1,12 +1,12 @@
 package service
 
 import (
-	"github.com/feedlabs/elasticfeed/service/store"
-	"github.com/feedlabs/elasticfeed/service/stream"
-	"github.com/feedlabs/elasticfeed/service/system"
-	"github.com/feedlabs/elasticfeed/service/predict"
+	"github.com/roscopecoltran/elasticfeed/service/store"
+	"github.com/roscopecoltran/elasticfeed/service/stream"
+	"github.com/roscopecoltran/elasticfeed/service/system"
+	"github.com/roscopecoltran/elasticfeed/service/predict"
 
-	"github.com/feedlabs/elasticfeed/elasticfeed/model"
+	"github.com/roscopecoltran/elasticfeed/elasticfeed/model"
 )
 
 type Service struct {}

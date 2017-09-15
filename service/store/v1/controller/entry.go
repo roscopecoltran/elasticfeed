@@ -3,8 +3,8 @@ package controller
 import (
 	"encoding/json"
 
-	"github.com/feedlabs/elasticfeed/resource"
-	"github.com/feedlabs/elasticfeed/service/store/v1/template/entry"
+	"github.com/roscopecoltran/elasticfeed/resource"
+	"github.com/roscopecoltran/elasticfeed/service/store/v1/template/entry"
 )
 
 type EntryController struct {

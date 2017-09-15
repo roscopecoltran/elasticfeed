@@ -16,7 +16,7 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/feedlabs/elasticfeed/plugin/model"
+	"github.com/roscopecoltran/elasticfeed/plugin/model"
 )
 
 // If this is true, then the "unexpected EOF" panic will not be

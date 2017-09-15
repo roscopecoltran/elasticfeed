@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/feedlabs/feedify/graph"
+	"github.com/roscopecoltran/feedify/graph"
 )
 
 func GetTokenList(AdminId string, OrgId string) (tokenLinst []*Token, err error) {

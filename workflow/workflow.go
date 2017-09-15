@@ -7,16 +7,16 @@ import (
 	"time"
 	"math/rand"
 
-	"github.com/feedlabs/elasticfeed/plugin/model"
-	"github.com/feedlabs/elasticfeed/resource"
-	"github.com/feedlabs/elasticfeed/population"
+	"github.com/roscopecoltran/elasticfeed/plugin/model"
+	"github.com/roscopecoltran/elasticfeed/resource"
+	"github.com/roscopecoltran/elasticfeed/population"
 
 	jsonutil "github.com/mitchellh/packer/common/json"
 	"github.com/mitchellh/mapstructure"
 
-	smodel "github.com/feedlabs/elasticfeed/service/stream/model"
+	smodel "github.com/roscopecoltran/elasticfeed/service/stream/model"
 
-	"github.com/feedlabs/elasticfeed/service/stream/controller/room"
+	"github.com/roscopecoltran/elasticfeed/service/stream/controller/room"
 )
 
 /*

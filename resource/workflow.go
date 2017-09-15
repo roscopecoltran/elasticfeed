@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"errors"
 
-	"github.com/feedlabs/feedify/graph"
+	"github.com/roscopecoltran/feedify/graph"
 )
 
 func (this *Workflow) GetRawData() map[string]interface{} {

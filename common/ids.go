@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/feedlabs/elasticfeed/resource"
+	"github.com/roscopecoltran/elasticfeed/resource"
 )
 
 func AdminChannelID(admin *resource.Admin) string {

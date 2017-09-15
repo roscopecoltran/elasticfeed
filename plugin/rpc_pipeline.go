@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/rpc"
 
-	"github.com/feedlabs/elasticfeed/plugin/model"
+	"github.com/roscopecoltran/elasticfeed/plugin/model"
 )
 
 // An implementation of Pipeline where the builder is actually executed

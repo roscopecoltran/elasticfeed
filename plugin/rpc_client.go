@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/rpc"
 
-	"github.com/feedlabs/elasticfeed/plugin/model"
+	"github.com/roscopecoltran/elasticfeed/plugin/model"
 )
 
 // RpcClient is the client end that communicates with a Packer RPC server.

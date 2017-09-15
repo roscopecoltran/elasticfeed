@@ -6,12 +6,12 @@ import (
 	"container/list"
 	"encoding/json"
 
-	"github.com/feedlabs/feedify"
+	"github.com/roscopecoltran/feedify"
 	"github.com/gorilla/websocket"
 
 	"github.com/astaxie/beego/session"
 
-	"github.com/feedlabs/elasticfeed/service/stream/model"
+	"github.com/roscopecoltran/elasticfeed/service/stream/model"
 )
 
 const (

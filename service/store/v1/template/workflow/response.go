@@ -1,8 +1,8 @@
 package workflow
 
 import (
-	"github.com/feedlabs/elasticfeed/resource"
-	"github.com/feedlabs/elasticfeed/service/store/v1/template"
+	"github.com/roscopecoltran/elasticfeed/resource"
+	"github.com/roscopecoltran/elasticfeed/service/store/v1/template"
 )
 
 func GetEntry(workflow *resource.Workflow) (entry map[string]interface{}) {

@@ -1,7 +1,7 @@
 package channel
 
 import (
-	"github.com/feedlabs/feedify"
+	"github.com/roscopecoltran/feedify"
 )
 
 type DefaultController struct {

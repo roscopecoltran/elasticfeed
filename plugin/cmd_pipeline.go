@@ -2,7 +2,7 @@ package plugin
 
 import (
 	"log"
-	"github.com/feedlabs/elasticfeed/plugin/model"
+	"github.com/roscopecoltran/elasticfeed/plugin/model"
 )
 
 type cmdPipeline struct {

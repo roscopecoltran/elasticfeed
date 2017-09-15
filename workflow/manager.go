@@ -3,15 +3,15 @@ package workflow
 import (
 	"fmt"
 
-	"github.com/feedlabs/elasticfeed/elasticfeed/model"
-	"github.com/feedlabs/elasticfeed/resource"
+	"github.com/roscopecoltran/elasticfeed/elasticfeed/model"
+	"github.com/roscopecoltran/elasticfeed/resource"
 
-	emodel "github.com/feedlabs/elasticfeed/elasticfeed/model"
-	smodel "github.com/feedlabs/elasticfeed/service/stream/model"
-	pmodel "github.com/feedlabs/elasticfeed/plugin/model"
+	emodel "github.com/roscopecoltran/elasticfeed/elasticfeed/model"
+	smodel "github.com/roscopecoltran/elasticfeed/service/stream/model"
+	pmodel "github.com/roscopecoltran/elasticfeed/plugin/model"
 
-	"github.com/feedlabs/elasticfeed/service/stream/controller/room"
-	"github.com/feedlabs/elasticfeed/service/stream"
+	"github.com/roscopecoltran/elasticfeed/service/stream/controller/room"
+	"github.com/roscopecoltran/elasticfeed/service/stream"
 )
 
 var (

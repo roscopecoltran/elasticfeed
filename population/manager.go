@@ -1,7 +1,7 @@
 package population
 
 import (
-	emodel "github.com/feedlabs/elasticfeed/elasticfeed/model"
+	emodel "github.com/roscopecoltran/elasticfeed/elasticfeed/model"
 )
 
 type PopulationManager struct {

@@ -3,9 +3,9 @@ package resource
 import (
 	"errors"
 
-	"github.com/feedlabs/feedify/service"
-	"github.com/feedlabs/feedify/graph"
-	"github.com/feedlabs/feedify/stream"
+	"github.com/roscopecoltran/feedify/service"
+	"github.com/roscopecoltran/feedify/graph"
+	"github.com/roscopecoltran/feedify/stream"
 )
 
 const (

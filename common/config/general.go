@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 	"strconv"
-	"github.com/feedlabs/feedify"
+	"github.com/roscopecoltran/feedify"
 )
 
 func GetApiSuperuser() string {

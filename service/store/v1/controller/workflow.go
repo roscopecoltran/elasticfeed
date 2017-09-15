@@ -3,8 +3,8 @@ package controller
 import (
 	"encoding/json"
 
-	"github.com/feedlabs/elasticfeed/resource"
-	template "github.com/feedlabs/elasticfeed/service/store/v1/template/workflow"
+	"github.com/roscopecoltran/elasticfeed/resource"
+	template "github.com/roscopecoltran/elasticfeed/service/store/v1/template/workflow"
 )
 
 type WorkflowController struct {

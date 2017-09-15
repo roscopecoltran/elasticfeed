@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/feedlabs/feedify"
+	"github.com/roscopecoltran/feedify"
 )
 
 type StatusController struct {

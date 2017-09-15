@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/feedlabs/elasticfeed/service/stream"
+	"github.com/roscopecoltran/elasticfeed/service/stream"
 )
 
 type ServiceManager interface {

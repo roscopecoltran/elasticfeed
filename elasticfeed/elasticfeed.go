@@ -1,16 +1,16 @@
 package elasticfeed
 
 import (
-	"github.com/feedlabs/elasticfeed/elasticfeed/model"
+	"github.com/roscopecoltran/elasticfeed/elasticfeed/model"
 
-	"github.com/feedlabs/elasticfeed/plugin"
-	"github.com/feedlabs/elasticfeed/workflow"
-	"github.com/feedlabs/elasticfeed/service"
-	"github.com/feedlabs/elasticfeed/event"
-	"github.com/feedlabs/elasticfeed/resource"
-	"github.com/feedlabs/elasticfeed/population"
+	"github.com/roscopecoltran/elasticfeed/plugin"
+	"github.com/roscopecoltran/elasticfeed/workflow"
+	"github.com/roscopecoltran/elasticfeed/service"
+	"github.com/roscopecoltran/elasticfeed/event"
+	"github.com/roscopecoltran/elasticfeed/resource"
+	"github.com/roscopecoltran/elasticfeed/population"
 
-	"github.com/feedlabs/feedify"
+	"github.com/roscopecoltran/feedify"
 )
 
 type Elasticfeed struct {

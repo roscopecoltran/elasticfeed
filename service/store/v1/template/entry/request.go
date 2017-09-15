@@ -1,7 +1,7 @@
 package entry
 
 import (
-	"github.com/feedlabs/feedify/context"
+	"github.com/roscopecoltran/feedify/context"
 )
 
 

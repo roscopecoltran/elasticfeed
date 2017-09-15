@@ -1,7 +1,7 @@
 package predict
 
 import (
-	"github.com/feedlabs/elasticfeed/service/predict/v1/router"
+	"github.com/roscopecoltran/elasticfeed/service/predict/v1/router"
 )
 
 /*

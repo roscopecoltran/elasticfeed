@@ -8,7 +8,7 @@ import (
 	"net/rpc"
 	"sync/atomic"
 
-	"github.com/feedlabs/elasticfeed/plugin/model"
+	"github.com/roscopecoltran/elasticfeed/plugin/model"
 )
 
 var endpointId uint64

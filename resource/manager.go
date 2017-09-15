@@ -1,8 +1,8 @@
 package resource
 
 import (
-	emodel "github.com/feedlabs/elasticfeed/elasticfeed/model"
-	"github.com/feedlabs/elasticfeed/service/stream"
+	emodel "github.com/roscopecoltran/elasticfeed/elasticfeed/model"
+	"github.com/roscopecoltran/elasticfeed/service/stream"
 )
 
 type ResourceManager struct {

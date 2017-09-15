@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/feedlabs/elasticfeed/elasticfeed"
+	"github.com/roscopecoltran/elasticfeed/elasticfeed"
 )
 
 func main() {

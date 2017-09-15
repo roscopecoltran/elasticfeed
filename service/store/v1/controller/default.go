@@ -4,10 +4,10 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/context"
 
-	"github.com/feedlabs/feedify"
-	"github.com/feedlabs/elasticfeed/resource"
-	"github.com/feedlabs/elasticfeed/common"
-	"github.com/feedlabs/elasticfeed/service/store/v1/template"
+	"github.com/roscopecoltran/feedify"
+	"github.com/roscopecoltran/elasticfeed/resource"
+	"github.com/roscopecoltran/elasticfeed/common"
+	"github.com/roscopecoltran/elasticfeed/service/store/v1/template"
 )
 
 type DefaultController struct {

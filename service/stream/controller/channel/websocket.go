@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"encoding/json"
 
-	"github.com/feedlabs/feedify"
+	"github.com/roscopecoltran/feedify"
 	"github.com/gorilla/websocket"
 
-	"github.com/feedlabs/elasticfeed/service/stream/controller/room"
+	"github.com/roscopecoltran/elasticfeed/service/stream/controller/room"
 )
 
 type WebSocketController struct {

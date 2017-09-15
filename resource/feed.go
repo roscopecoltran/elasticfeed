@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/feedlabs/feedify/graph"
-	"github.com/feedlabs/elasticfeed/service/stream/controller/room"
+	"github.com/roscopecoltran/feedify/graph"
+	"github.com/roscopecoltran/elasticfeed/service/stream/controller/room"
 )
 
 func (this *Feed) AddEntry(entry Entry) (EntryId string, err error) {

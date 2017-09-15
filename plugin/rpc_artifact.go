@@ -2,7 +2,7 @@ package plugin
 
 import (
 	"net/rpc"
-	"github.com/feedlabs/elasticfeed/plugin/model"
+	"github.com/roscopecoltran/elasticfeed/plugin/model"
 )
 
 // An implementation of packer.Artifact where the RpcArtifact is actually

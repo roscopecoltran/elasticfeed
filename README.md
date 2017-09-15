@@ -10,8 +10,8 @@
 Create symbolic link from you directory to `GOPATH`
 ```
 cd to-your-project
-mkdir -p $GOPATH/src/github.com/feedlabs
-ln -s $(pwd) $GOPATH/src/github.com/feedlabs/elasticfeed
+mkdir -p $GOPATH/src/github.com/roscopecoltran
+ln -s $(pwd) $GOPATH/src/github.com/roscopecoltran/elasticfeed
 ```
 
 #### Developing Elasticfeed
@@ -70,7 +70,7 @@ go run api.go
 ```
 
 #### Dependencies
-* `go get github.com/feedlabs/feedify` [repo](https://github.com/feedlabs/feedify)
+* `go get github.com/roscopecoltran/feedify` [repo](https://github.com/roscopecoltran/feedify)
 
 #### Documentation
 

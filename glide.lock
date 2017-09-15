@@ -1,0 +1,111 @@
+hash: e669b674ff6d1fc511618e33b21311927a276f26d288857d2e7558c8f2899f30
+updated: 2017-09-15T18:09:35.487606166+02:00
+imports:
+- name: github.com/abbot/go-http-auth
+  version: 0ddd408d5d60ea76e320503cc7dd091992dee608
+- name: github.com/astaxie/beego
+  version: 3162da131da68f38e85765781c9d1cc419963e67
+  subpackages:
+  - config
+  - context
+  - context/param
+  - grace
+  - logs
+  - session
+  - toolbox
+  - utils
+- name: github.com/barakmich/glog
+  version: fafcb6128a8a2e6360ff034091434d547397d54a
+- name: github.com/bradfitz/gomemcache
+  version: 1952afaa557dc08e8e0d89eafab110fb501c1a2b
+  subpackages:
+  - memcache
+- name: github.com/davecgh/go-spew
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  subpackages:
+  - spew
+- name: github.com/feedlabs/feedify
+  version: f47c7b01ab4ecd9d894018d20788d2fd5ed2219c
+  subpackages:
+  - config
+  - context
+  - graph
+  - graph/adapter
+  - graph/entity
+  - memcache
+  - neo4j
+  - redis
+  - stream
+  - stream/adapter/message
+- name: github.com/fzzy/radix
+  version: 3528e87a910c6730810cec1be187f989d7d9442a
+  subpackages:
+  - extra/pubsub
+  - redis
+  - redis/resp
+- name: github.com/gorilla/websocket
+  version: 6f34763140ed8887aed6a044912009832b4733d7
+- name: github.com/hashicorp/go-msgpack
+  version: fa3f63826f7c23912c15263591e65d54d080b458
+  subpackages:
+  - codec
+- name: github.com/hashicorp/go-version
+  version: fc61389e27c71d120f87031ca8c88a3428f372dd
+- name: github.com/hashicorp/yamux
+  version: d1caa6c97c9fc1cc9e83bbe34d0603f9ff0ce8bd
+- name: github.com/jmcvetta/neoism
+  version: 2ffb5c69feb355227c6ee8679768d7289e6d7193
+- name: github.com/jmcvetta/randutil
+  version: 2bb1b664bcff821e02b2a0644cd29c7e824d54f8
+- name: github.com/kr/pretty
+  version: cfb55aafdaf3ec08f0db22699ab822c50091b1c4
+- name: github.com/kr/text
+  version: 7cafcd837844e784b526369c9bce262804aebc60
+- name: github.com/mitchellh/mapstructure
+  version: d0303fe809921458f417bcf828397a65db30a7e4
+- name: github.com/mitchellh/osext
+  version: 5e2d6d41470f99c881826dedd8c526728b783c9c
+- name: github.com/mitchellh/packer
+  version: e8c54cb4962edb63c8cdb9e151e8f7aa9f270a95
+  subpackages:
+  - common/json
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
+- name: github.com/robertkrimen/otto
+  version: a813c59b1b4471ff7ecd3b533bac2f7e7d178784
+  subpackages:
+  - ast
+  - dbg
+  - file
+  - parser
+  - registry
+  - token
+- name: github.com/roscopecoltran/feedify
+  version: f47c7b01ab4ecd9d894018d20788d2fd5ed2219c
+  subpackages:
+  - context
+  - graph
+  - service
+  - stream
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  subpackages:
+  - assert
+- name: golang.org/x/crypto
+  version: dd96d35c1b251a7ef77f057fc5c4f92ea2b285b4
+  subpackages:
+  - bcrypt
+  - blowfish
+- name: golang.org/x/net
+  version: e45385e9b226f570b1f086bf287b25d3d4117776
+  subpackages:
+  - context
+- name: gopkg.in/jmcvetta/napping.v3
+  version: 4c7b4b235c63152afa9a1c6384e708e0fbfd77ca
+- name: gopkg.in/sourcemap.v1
+  version: 6e83acea0053641eff084973fee085f0c193c61a
+  subpackages:
+  - base64vlq
+testImports: []

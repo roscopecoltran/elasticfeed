@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/feedlabs/elasticfeed/common/config"
-	"github.com/feedlabs/elasticfeed/common/uuid"
-	"github.com/feedlabs/elasticfeed/resource"
-	template "github.com/feedlabs/elasticfeed/service/system/v1/template/plugin"
+	"github.com/roscopecoltran/elasticfeed/common/config"
+	"github.com/roscopecoltran/elasticfeed/common/uuid"
+	"github.com/roscopecoltran/elasticfeed/resource"
+	template "github.com/roscopecoltran/elasticfeed/service/system/v1/template/plugin"
 )
 
 type PluginController struct {

@@ -2,7 +2,7 @@ package template
 
 import (
 	"strconv"
-	"github.com/feedlabs/feedify/context"
+	"github.com/roscopecoltran/feedify/context"
 )
 
 type ResponseDefinition struct {

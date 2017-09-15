@@ -1,7 +1,7 @@
 package system
 
 import (
-	"github.com/feedlabs/elasticfeed/service/system/v1/router"
+	"github.com/roscopecoltran/elasticfeed/service/system/v1/router"
 )
 
 type SystemService struct {}

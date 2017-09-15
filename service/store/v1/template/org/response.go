@@ -2,8 +2,8 @@ package org
 
 import (
 	"strconv"
-	"github.com/feedlabs/elasticfeed/resource"
-	"github.com/feedlabs/elasticfeed/service/store/v1/template"
+	"github.com/roscopecoltran/elasticfeed/resource"
+	"github.com/roscopecoltran/elasticfeed/service/store/v1/template"
 	"errors"
 	"sort"
 )

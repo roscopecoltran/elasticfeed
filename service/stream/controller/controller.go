@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/feedlabs/elasticfeed/service/stream/controller/room"
+	"github.com/roscopecoltran/elasticfeed/service/stream/controller/room"
 )
 
 func InitSession() {

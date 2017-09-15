@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/feedlabs/feedify/graph"
-	"github.com/feedlabs/elasticfeed/common/config"
+	"github.com/roscopecoltran/feedify/graph"
+	"github.com/roscopecoltran/elasticfeed/common/config"
 )
 
 func (this *Admin) IsSuperUser() bool {
